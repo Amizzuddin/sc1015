@@ -65,4 +65,4 @@ You will often need to [commit](https://github.com/git-guides/git-commit) and [p
 
 
 ## Finally
-HAppy working with you guys. Hope this project will give you a view how programmers work in the industries as well. I know we are staudents but this are meant to make our life easy at collaborating. I know the porobelsm with onedrive and googlde drive and I agree github address this collaboration issues
+Happy working with you guys. Hope this project will give you a view how programmers work in the industries as well. I know we are students but this are meant to make our life easy at collaborating. I know the probelms with onedrive and google drive and I agree github address this collaboration issues.
