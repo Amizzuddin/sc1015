@@ -1,7 +1,7 @@
 # sc1015
 SC1015 group project
 
-## How to get started 
+## How to get started
 prerequisite: Need to understand how to use:
 - windows: command prompt or powershell or [git bash](https://git-scm.com/downloads) or any other supporting terminal
 - linux: bash or any other terminal
@@ -11,7 +11,7 @@ prerequisite: Need to understand how to use:
 follow this [guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate ssh key on your machine/laptop
 
 2. add the ssh key into your github account. If you dont add the newly generated ssh key into your account, github will never recognize your account. Follow this [guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on how to add ssh key into your github account
- 
+
 3. do a test on SSH connection by follow the following [guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
 
 
@@ -20,7 +20,7 @@ Once the above setups are done, you can do git clone of this repository. One thi
 To do a git clone of the repository, you can enter the following command:
 ```
 ssh git@github.com:Amizzuddin/sc1015.git
-``` 
+```
 you sould have all the contents of the repository.
 
 ## How to contribute
