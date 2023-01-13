@@ -7,10 +7,17 @@ class person:
     age: int
     company: str
     nationality: str
+    country: str
 
 
 if __name__ == "__main__":
     print("Hello World!")
 
-    first_person = person(name="Amizzuddin", age=35, company="Conti", nationality="malaysian")
+    first_person = person(
+        name="Amizzuddin",
+        age=35,
+        company="Conti",
+        nationality="malaysian",
+        country="Singapore",
+    )
     print(first_person)
