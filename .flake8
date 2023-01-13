@@ -1,0 +1,8 @@
+[flake8]
+min_python_version = 3.6.2
+max-line-length = 120
+exclude =
+    external/*
+# E266: too many leading '#' for block comment
+# E203: whitespace before ':' (conflict with black autoformatter)
+ignore = E266, E203, W503, F405, F401, E402, F403, E722, F541, F811, F841, W605, SIM118, TYP001, C408, B007, SIM106, B001, SIM115, SIM119, SIM105, SIM102, B306

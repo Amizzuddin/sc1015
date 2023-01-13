@@ -1,2 +1,4 @@
 black
+dataclasses
 mypy
+pre-commit
