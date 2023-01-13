@@ -45,6 +45,9 @@ mamba create env --name <the name of your new environment for the project> pytho
 # finally install the dependencies
 mamba install --file requirements.txt
 
+# activate black
+black . --exclude external
+
 # now activate mypy (mypy is a static analysis tool)
 mypy . \
     --ignore-missing-imports \
