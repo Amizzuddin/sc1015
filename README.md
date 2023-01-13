@@ -64,7 +64,7 @@ mypy . \
 4. any merging of code from your branch to the main branch, you can do a pull request. Follow the following guide on [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and make sure to add team members as [reviewers](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) before merging can be done
 
 ## Some other informations
-You will often need to [commit](https://github.com/git-guides/git-commit) and [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
+You will often need to [commit](https://github.com/git-guides/git-commit), [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository), [rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
 
 ## Finally
