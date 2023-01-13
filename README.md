@@ -66,6 +66,10 @@ mypy . \
 ## Some other informations
 You will often need to [commit](https://github.com/git-guides/git-commit), [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository), [rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
+When you do a commit, you should be seeing the follwoing logs in your terminal
+![pre-commit logs](images/pre-commit_logs.png)
+
+**if you dont see this logs, please report!** this should check your code format and your python code format, any incorrect code format will inform you to correct before commit is possible.
 
 ## Finally
 Happy working with you guys. Hope this project will give you a view how programmers work in the industries as well. I know we are students but this are meant to make our life easy at collaborating. I know the probelms with onedrive and google drive and I agree github address this collaboration issues.
