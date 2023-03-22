@@ -3,7 +3,7 @@ SC1015 group project
 
 ## How to get started
 prerequisite: Need to understand how to use:
-- windows: command prompt or powershell or [git bash](https://git-scm.com/downloads) or any other supporting terminal
+- windows: command prompt or powershell or [git bash](https://git-scm.com/downloads) or [Github Desktop](https://desktop.github.com/) (**RECOMMENDED!!!** Simple to use, no need to use terminal such as command prompt, powershell, bash and etc. Can step the steps below)
 - linux: bash or any other terminal
 
 ### Steps:
@@ -42,21 +42,6 @@ mamba install mamba-bash-completion
 # create a new environment for this project. You wont want your dependencies affecting other python projects. This is the beauty of working in conda environment!
 mamba create env --name <the name of your new environment for the project> python=3.9
 
-# finally install the dependencies
-mamba install --file requirements.txt
-
-# activate black
-black . --exclude external
-
-# now activate mypy (mypy is a static analysis tool)
-mypy . \
-    --ignore-missing-imports \
-    --check-untyped-defs \
-    --disallow-untyped-defs \
-    --strict-equality \
-    --namespace-packages \
-    --disallow-subclassing-any \
-    --disallow-any-explicit
 ```
 
 3. finally create a branch so that all of us can work parallel. **No one should be working on main branch!**. main branch is used for testing the integration of our codes and will be use as the finalize code for project submission. you can follow the following [create & delete branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
@@ -66,10 +51,6 @@ mypy . \
 ## Some other informations
 You will often need to [commit](https://github.com/git-guides/git-commit), [push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository), [rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
-When you do a commit, you should be seeing the follwoing logs in your terminal
-![pre-commit logs](images/pre-commit_logs.png)
-
-**if you dont see this logs, please report!** this should check your code format and your python code format, any incorrect code format will inform you to correct before commit is possible.
 
 ## Finally
 Happy working with you guys. Hope this project will give you a view how programmers work in the industries as well. I know we are students but this are meant to make our life easy at collaborating. I know the probelms with onedrive and google drive and I agree github address this collaboration issues.
