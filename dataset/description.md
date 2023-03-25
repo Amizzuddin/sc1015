@@ -20,7 +20,7 @@ https://lnkd.in/gjCBhP_P
 | :--- | :--- | :--- |
 | id | Course id | int | 
 | title | Course title| string |
-| is_paid | Charagable course | bool |
+| is_paid | Chargeable course | bool |
 | price | Course price | float |
 | headline | Course headline (sneak peek to what course can offer) | string | 
 | num_subscribers | Number of subscirbers | int |
@@ -29,7 +29,7 @@ https://lnkd.in/gjCBhP_P
 | num_comments | Number of comments | int |
 | num_lectures | Number of lectures | int |
 | content_length_min | Course content lenth in minutes | float |
-| publish_time | Course publish date | UTC (ISO 1806 standard) |
+| publish_time | Course publish datetime | UTC (ISO 1806 standard) |
 | last_update_date | Course last update | year-month-date (YYYY-MM-DD) |
 | category | Course catergory | string (catergory) |
 | subcatergory | Course subcatergory | string (catergory) |

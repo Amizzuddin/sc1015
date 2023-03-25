@@ -42,6 +42,10 @@ mamba install mamba-bash-completion
 # create a new environment for this project. You wont want your dependencies affecting other python projects. This is the beauty of working in conda environment!
 mamba create env --name <the name of your new environment for the project> python=3.9
 
+# finally install the dependencies 
+# [IMPORTANT] in order to run main.ipynb (due to dependencies to other .ipynb files)
+mamba install --file requirements.txt
+
 ```
 
 3. finally create a branch so that all of us can work parallel. **No one should be working on main branch!**. main branch is used for testing the integration of our codes and will be use as the finalize code for project submission. you can follow the following [create & delete branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
