@@ -23,7 +23,7 @@ https://lnkd.in/gjCBhP_P
 | is_paid | Chargeable course | bool |
 | price | Course price | float |
 | headline | Course headline (sneak peek to what course can offer) | string | 
-| num_subscribers | Number of subscirbers | int |
+| num_subscribers | Number of subscribers | int |
 | avg_rating | Average course rating | float (0.0 to 5.0) |
 | num_reviews | Number of reviews | int |
 | num_comments | Number of comments | int |
