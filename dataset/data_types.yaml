@@ -1,0 +1,22 @@
+# Dataset column data types
+data_types:
+  id: int64
+  title: string
+  is_paid: bool
+  price: float64
+  headline: string
+  num_subscribers: int64
+  avg_rating: float64 # float of 0.0 to 5.0
+  num_reviews: int64
+  num_comments: int64
+  num_lectures: int64
+  content_length_min: int64
+  published_time: object # timezone[UTC] in 2010-08-05T22:06:13Z
+  last_update_date: datetime64[ns]
+  category: category
+  subcategory: category
+  topic: string
+  language: category
+  course_url: string
+  instructor_name: category
+  instructor_url: string

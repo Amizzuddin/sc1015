@@ -1,3 +1,5 @@
 typing
+pyyaml
 importnb
 dython
+kmodes

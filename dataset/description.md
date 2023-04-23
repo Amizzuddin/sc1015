@@ -29,14 +29,14 @@ https://lnkd.in/gjCBhP_P
 | num_comments | Number of comments | int |
 | num_lectures | Number of lectures | int |
 | content_length_min | Course content lenth in minutes | float |
-| publish_time | Course publish datetime | UTC (ISO 1806 standard) |
+| published_time | Course publish datetime | UTC (ISO 1806 standard) |
 | last_update_date | Course last update | year-month-date (YYYY-MM-DD) |
-| category | Course catergory | string (catergory) |
-| subcatergory | Course subcatergory | string (catergory) |
+| category | Course category | string (category) |
+| subcategory | Course subcategory | string (category) |
 | topic | Course topic | string |
-| language | Course language | string (catergory) |
+| language | Course language | string (category) |
 | course_url | Course url | string |
-| instructor_name | Instructor name | string |
-
+| instructor_name | Instructor name | string (category) |
+| instructor_url | Instructor url | string |
 ---
 

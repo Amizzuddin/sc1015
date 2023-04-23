@@ -1,0 +1,28 @@
+# Features required
+include_features:
+  - price
+  - num_subscribers
+  - avg_rating
+  - num_lectures
+  - content_length_min
+  - category
+  - language
+  - instructor_name
+
+# Clean up parameters:
+# include values more than indicated
+clean_up:
+  price: 0
+  num_subscribers : 0
+
+
+# Categorical count vizualization
+# visualization only includes indicated here
+categorical_count_visualization:
+  - category
+
+# Numerical versus Categorical EDA visualization
+numerical_vs_categorical_eda_visualization:
+  num_subscribers: category
+  price: category
+
