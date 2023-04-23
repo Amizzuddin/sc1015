@@ -3,5 +3,4 @@ pyyaml
 importnb
 dython
 kmodes
-umap-learn
 tqdm
