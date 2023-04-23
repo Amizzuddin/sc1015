@@ -5,9 +5,6 @@ include_features:
   - avg_rating
   - num_lectures
   - content_length_min
-  - category
-  - subcategory
-  - language
   - instructor_name
 
 # Clean up parameters:
@@ -31,7 +28,7 @@ numerical_vs_categorical_eda_visualization:
 # Kprototype parameters
 kprototype_clusters:
   number_of_clusters: 10
-  number_of_iteration: 2
+  number_of_iteration: 20
   categorical_features:
     - instructor_name
   numerical_features:

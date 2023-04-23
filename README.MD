@@ -1,12 +1,14 @@
 # SC1015 Mini Project
 
 ## Dataset source
-Dataset is taken from kaggle. Clink [here](dataset/description.md) for more information on dataset
+Dataset is taken from kaggle. Click [here](dataset/description.md) for more information on dataset
 
 ## Contributors
 - Amizzuddin MD Amin (U2222177J)
 - Bowen
 - Sun Qing
+
+Click [here](contributions/CONTRIBUTORS_INSTRUCTIONS.md) for contributors instructions.
 
 ## problem definition
 Our motivation for the study to find out if content creator has influence over the quality, price and quantity of the course provided in udemy (an online platform) 
