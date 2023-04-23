@@ -6,14 +6,15 @@ include_features:
   - num_lectures
   - content_length_min
   - category
+  - subcategory
   - language
   - instructor_name
 
 # Clean up parameters:
 # include values more than indicated
 clean_up:
-  price: 0
-  num_subscribers : 0
+  price: 10
+  num_subscribers: 0
 
 
 # Categorical count vizualization
@@ -26,3 +27,33 @@ numerical_vs_categorical_eda_visualization:
   num_subscribers: category
   price: category
 
+
+# Kprototype parameters
+kprototype_clusters:
+  number_of_clusters: 10
+  number_of_iteration: 2
+  categorical_features:
+    - instructor_name
+  numerical_features:
+    - price
+    - num_subscribers
+    - avg_rating
+    - num_lectures
+    - content_length_min
+  cluster_name: cluster_id
+
+# Decision Tree Classifier parameters
+decision_tree_classifier:
+  max_depth: 3
+  train_test_ratio: 0.2
+  response:
+    - cluster_id
+  predictors:
+    - price
+    - num_subscribers
+    - avg_rating
+    - num_lectures
+    - content_length_min
+  confusion_matrix_display:
+    x: 70
+    y: 10
