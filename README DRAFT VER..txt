@@ -11,7 +11,7 @@ Our inspiration, a thorough examination of our data exploration and the methods 
 3Contributors
 -Amizzuddin MD Amin (U2222177J)
 - Ye Bowen (U2220893C)
-- Sun Qing 
+- Sun Qing (U2220313A)
 
 4problem definition(maybe you want to add this?)(good course or good rating predict)
 -Our motivation for choosing this project comes from being a course instructor, we want to know whether our course is good enough to be on the (uni or institution) and do not want to waste time building something that is not good.
