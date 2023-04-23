@@ -28,9 +28,12 @@ numerical_vs_categorical_eda_visualization:
   price: category
 
 
-multivariate_decision_tree:
-  response: instructor_name
-  predictors:
+kmodes:
+  cluster: 1
+  iteration: 5
+  categorical_features:
+    - instructor_name
+  numerical_features:
     - price
     - num_subscribers
     - avg_rating
