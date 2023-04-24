@@ -26,7 +26,16 @@ Our motivation for the study to find out if content creator has influence over t
 - Detailed EDA can be could at the following:
     - [EDA done by Amizzuddin](contributions/amizzuddin/amizzuddin.ipynb)
     - [EDA done by SunQing](contributions/sunqing/SunQingMainWorking.ipynb)
-    - [EDA done by Bowen](contributions/)
+    - [EDA done by Bowen](contributions/bowen/update%20from%20SQ.ipynb)
+
+## Use of YAML (yet another markup language)
+YAML file is use to configure of the following:
+- features to inclue into the dataframe
+- clean up parameters
+- category feature for count visualizartion
+- numerical versus categorical features for EDA visualization
+- kprotoypes parameters
+- decision tree classfier parameters
 
 ## Data Cleaning and Feature Engineering
 After the EDA step, we have generated insights from the data in terms of their distribution and relevance our overall task. The functions in this package we perform the following functions to clean datasets, like e.g. Drop columns which are irrelevant.
