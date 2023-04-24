@@ -23,6 +23,10 @@ Our motivation for the study to find out if content creator has influence over t
     - How they relevant between our task or problem defination.
     - Their respective distributions and whether there might be class imbalances.
     - Missing data and other considerations to be had later during cleaning.
+- Detailed EDA can be could at the following:
+    - [EDA done by Amizzuddin](contributions/amizzuddin/amizzuddin.ipynb)
+    - [EDA done by SunQing](contributions/sunqing/SunQingMainWorking.ipynb)
+    - [EDA done by Bowen](contributions/)
 
 ## Data Cleaning and Feature Engineering
 After the EDA step, we have generated insights from the data in terms of their distribution and relevance our overall task. The functions in this package we perform the following functions to clean datasets, like e.g. Drop columns which are irrelevant.
